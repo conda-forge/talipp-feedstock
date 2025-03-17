@@ -1,13 +1,13 @@
 {% set name = "talipp" %}
-{% set version = "2.1.0" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/talipp-{{ version }}.tar.gz
-  sha256: d9a079682a158e6f38c2c5ee94e1e2bcc0c15904f7ccf58382bd3beec3223690
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/talipp-{{ version }}.tar.gz
+  sha256: 41326000305c9ead01031b7973386aea57ab30c025b6142615f7bb78f06d8967
 
 build:
   noarch: python
